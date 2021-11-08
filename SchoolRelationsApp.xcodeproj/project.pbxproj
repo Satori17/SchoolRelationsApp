@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		58369E0E27358561000048A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E0D27358561000048A4 /* AppDelegate.swift */; };
 		58369E1027358561000048A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E0F27358561000048A4 /* SceneDelegate.swift */; };
-		58369E1227358561000048A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E1127358561000048A4 /* ViewController.swift */; };
+		58369E1227358561000048A4 /* PupilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E1127358561000048A4 /* PupilViewController.swift */; };
 		58369E1527358561000048A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58369E1327358561000048A4 /* Main.storyboard */; };
 		58369E1827358561000048A4 /* SchoolRelationsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58369E1627358561000048A4 /* SchoolRelationsApp.xcdatamodeld */; };
 		58369E1A27358563000048A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58369E1927358563000048A4 /* Assets.xcassets */; };
 		58369E1D27358563000048A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58369E1B27358563000048A4 /* LaunchScreen.storyboard */; };
+		58369E3927358DCB000048A4 /* Teacher+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E3527358DCB000048A4 /* Teacher+CoreDataClass.swift */; };
+		58369E3A27358DCB000048A4 /* Teacher+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E3627358DCB000048A4 /* Teacher+CoreDataProperties.swift */; };
+		58369E3B27358DCB000048A4 /* Pupil+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E3727358DCB000048A4 /* Pupil+CoreDataClass.swift */; };
+		58369E3C27358DCB000048A4 /* Pupil+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E3827358DCB000048A4 /* Pupil+CoreDataProperties.swift */; };
+		58369E3F2735AD63000048A4 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58369E3E2735AD63000048A4 /* TeacherViewController.swift */; };
+		584DC5DC2737E1D10051E988 /* pupilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584DC5DB2737E1D10051E988 /* pupilCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58369E0A27358561000048A4 /* SchoolRelationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolRelationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58369E0D27358561000048A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58369E0F27358561000048A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58369E1127358561000048A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58369E1127358561000048A4 /* PupilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupilViewController.swift; sourceTree = "<group>"; };
 		58369E1427358561000048A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58369E1727358561000048A4 /* SchoolRelationsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SchoolRelationsApp.xcdatamodel; sourceTree = "<group>"; };
 		58369E1927358563000048A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58369E1C27358563000048A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58369E1E27358563000048A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58369E3527358DCB000048A4 /* Teacher+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teacher+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		58369E3627358DCB000048A4 /* Teacher+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teacher+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		58369E3727358DCB000048A4 /* Pupil+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pupil+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		58369E3827358DCB000048A4 /* Pupil+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pupil+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		58369E3E2735AD63000048A4 /* TeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
+		584DC5DB2737E1D10051E988 /* pupilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pupilCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +72,44 @@
 			children = (
 				58369E0D27358561000048A4 /* AppDelegate.swift */,
 				58369E0F27358561000048A4 /* SceneDelegate.swift */,
-				58369E1127358561000048A4 /* ViewController.swift */,
+				58369E2C27358D08000048A4 /* Model */,
+				584DC5DA2737E19D0051E988 /* View */,
 				58369E1327358561000048A4 /* Main.storyboard */,
+				58369E3D2735AD3B000048A4 /* Controller */,
 				58369E1927358563000048A4 /* Assets.xcassets */,
 				58369E1B27358563000048A4 /* LaunchScreen.storyboard */,
 				58369E1E27358563000048A4 /* Info.plist */,
 				58369E1627358561000048A4 /* SchoolRelationsApp.xcdatamodeld */,
 			);
 			path = SchoolRelationsApp;
+			sourceTree = "<group>";
+		};
+		58369E2C27358D08000048A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58369E3527358DCB000048A4 /* Teacher+CoreDataClass.swift */,
+				58369E3627358DCB000048A4 /* Teacher+CoreDataProperties.swift */,
+				58369E3727358DCB000048A4 /* Pupil+CoreDataClass.swift */,
+				58369E3827358DCB000048A4 /* Pupil+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58369E3D2735AD3B000048A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58369E1127358561000048A4 /* PupilViewController.swift */,
+				58369E3E2735AD63000048A4 /* TeacherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		584DC5DA2737E19D0051E988 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				584DC5DB2737E1D10051E988 /* pupilCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58369E1227358561000048A4 /* ViewController.swift in Sources */,
+				58369E3B27358DCB000048A4 /* Pupil+CoreDataClass.swift in Sources */,
+				58369E3A27358DCB000048A4 /* Teacher+CoreDataProperties.swift in Sources */,
+				58369E1227358561000048A4 /* PupilViewController.swift in Sources */,
 				58369E1827358561000048A4 /* SchoolRelationsApp.xcdatamodeld in Sources */,
+				58369E3927358DCB000048A4 /* Teacher+CoreDataClass.swift in Sources */,
+				58369E3F2735AD63000048A4 /* TeacherViewController.swift in Sources */,
 				58369E0E27358561000048A4 /* AppDelegate.swift in Sources */,
+				58369E3C27358DCB000048A4 /* Pupil+CoreDataProperties.swift in Sources */,
+				584DC5DC2737E1D10051E988 /* pupilCell.swift in Sources */,
 				58369E1027358561000048A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
